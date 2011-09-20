@@ -42,7 +42,6 @@
 
                     // Create the sticky header element once, if it was not already found
                     if( !found ) {
-                        console.log('CReate stiCky!');
                         sticky = $('<table id="sticky" />').append($('<tbody />')).append(tr.clone());
                         sticky.hide();
                         sticky.css({
