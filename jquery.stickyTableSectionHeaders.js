@@ -59,13 +59,13 @@
                         });
                         sticky.show();
                     }
-                    else if( trTop >= 0 && trTop <= trHeight ) {
+                    else if( index > 0 && trTop >= 0 && trTop <= trHeight ) {
                         sticky.css({
                             top: '-' + ( trHeight - trTop ) + 'px'
                         });
                         sticky.show();
                     }
-                    else if( index == 0 ) {
+                    else if( index === 0 ) {
                         sticky.hide();
                     }
                 });
